@@ -17,7 +17,7 @@ body {
     position: relative;
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: max(1200px, 100vw);
+    background-size: max(1350px, 100vw);
 }
 
 .main .box {
@@ -53,7 +53,7 @@ nav button {
 
 .hero {
     font-family: "Inter", sans-serif;
-    height: calc(96% - 62px);
+    height: calc(97% - 62px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -95,20 +95,36 @@ nav button {
     height:4px;
     background-color:red;
     border-top:2px solid grey;
+    box-shadow: 0px 0px 10px 5px whitesmoke;
 }
 .btn{
     background-color: red;
     color: white;
     border:none;
-    border-radius: 2px solid red;
+    border-radius: 4px;
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
 }
 .btn-red{
     font-weight: 990;
+    padding: 13px 45px;
+    border-radius: 4px;
+
     
 }
 .btn-red-sm{
     font-weight: 400;
+    border-radius: 4px;
+    padding: 7px 12px;
+}
+input[type="text"]{
+    padding: 13px 50px ;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.7);
+    font-size: 16px;
+    border: 1px solid rgba( 246,238,238,0.5);
+}
+h2{
+    color:rgb(241, 239, 239);
 }

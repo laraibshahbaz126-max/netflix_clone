@@ -128,6 +128,7 @@ input[type="text"]{
 h2{
     color: white;
     padding: 20px 100px;
+
 }
 .trending{
     display: flex;
@@ -157,7 +158,7 @@ h2{
     height: 100%;
     border-radius: 10px;
     overflow: hidden;
-    background-size: cover;
+    box-shadow: 0px 0px 10px 5px black;
 }
 .arrow{
     position: absolute;
@@ -166,10 +167,62 @@ h2{
     border: none;
     padding: 10px;
     cursor: pointer;
-    z-index: 2;
+    z-index: 3;
     height: 7.5rem;
     border-radius: 0.5rem;
-color: rgba(255, 255, 255, 0.7);
-    background-color: grey;
+    color: rgba(255, 255, 255, 0.7);
+    background-color: #111111;
     border-style: none;
 }
+.arrow:hover{
+    background-color: rgba(29, 28, 28, 0.1);
+}
+.black{display: flex;
+    justify-content: space-between;
+    background-color: black;
+    border-radius: 10px;
+    gap: 20px;
+    box-sizing: border-box;
+    padding: 20px 20px;
+    width: 100%;
+    max-width: 120rem;
+    height: 50%;
+    margin: 20px 100px;
+    z-index: 2;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.purple{
+    background-color: #4A154B ;
+    border-radius: 10px;
+    gap: 20px;
+    height: 110%;
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+    width: 35%;
+}
+.purple h2{
+    color:white;
+    padding: 30px 0px;}
+    h2{
+        color: white;
+        padding: 20px 100px;
+    }
+    .faq{
+        color: white;
+        padding: 20px 100px;
+    }
+    .faq .question{
+        display: flex;
+        justify-content: space-between;
+        font-size: 18px;
+        font-weight: 100;
+        padding: 10px 0px;
+    }
+    .faq .question:hover{
+        background-color: rgba(255, 255, 255, 0.1);
+        cursor: pointer;
+    }

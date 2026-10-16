@@ -259,7 +259,7 @@ h2{
 .what{padding: 20px;
     margin: 20px;
 gap: 30px;
-background-color: grey;
+background-color: rgb(73, 69, 69);
 border: 2px;
 border-color: grey;
 }
@@ -269,7 +269,7 @@ border-color: grey;
 gap: 30px;
 background-color: grey;
 border: 2px;
-border-color: grey;
+border-color: rgb(78, 69, 69);
 }
 .cancel{
     padding: 20px;

@@ -9,6 +9,8 @@
 
 body {
     background-color: black;
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
 }
 
 .main {
@@ -17,53 +19,9 @@ body {
     position: relative;
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: max(1350px, 100vw);
-}
-
-.main .box {
-    height: 100%;
-    width: 100%;
-    opacity: 0.69;
-    position: absolute;
-    top: 0;
-    background-color: black;
-}
-
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 90vw;
-}
-
-nav img {
-    width: 140px;
-    position: relative;
-    z-index: 10;
-    margin: 20px;
-    margin-left: 100px;
-}
-
-nav button {
-    position: relative;
-    z-index: 10;
-
-
-}
-
-.hero {
-    font-family: "Inter", sans-serif;
-    height: calc(97% - 62px);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    color: white;
-    position: relative;
-    padding: 0px 30px;
-    text-align: center;
-
-
+    /* background-size: max(1350px, 100vw); */
+    background-size: cover;
+    width: 100%
 }
 
 .hero .firstchild {
@@ -141,7 +99,7 @@ h2{
 .trending{
     display: flex;
     justify-content: space-between;
-    margin: 20px 100px;
+    margin: 10px 80px;
     gap: 20px;
     background-color: black;
     border-radius: 10px;
@@ -162,7 +120,7 @@ h2{
 }
 .card{
     position: relative;
-    width: 100%;
+    width: 150%;
     height: 100%;
     border-radius: 10px;
     overflow: hidden;
@@ -208,6 +166,7 @@ h2{
 }
 
 .purple{
+    right: 80px;
     background-color: #4A154B ;
     border-radius: 10px;
     gap: 20px;
@@ -216,6 +175,7 @@ h2{
     align-items: center;
     text-align: center;
     width: 35%;
+    position: relative;
 }
 .purple h2{
     color:white;
@@ -408,11 +368,34 @@ padding: 5px;
     width: 80px;
     height: 70px;
     margin: 40px;
-    opacity: 0.5;
+    opacity: 0.7;
+    position: absolute;
+    left: 100px;
+    top: 250px;
 }
 .offline{
     width: 80px;
     height: 70px;
     margin: 40px;
-    opacity: 0.5;
+    opacity: 0.7;
+    position: absolute;
+    left: 100px;
+    top: 250px;
+}
+.tele{width: 80px;
+    height: 70px;
+    margin: 40px;
+    opacity: 0.7;
+    position: absolute;
+    left: 100px;
+    top: 250px;
+    
+}
+ .kids{width: 80px;
+    height: 70px;
+    margin: 40px;
+    opacity: 0.7;
+    position: absolute;
+    left: 100px;
+    top: 250px;
 }
